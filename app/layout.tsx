@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Explore ShaffyNation, a vibrant community where memes and decentralization are the foundation of a crypto revolution with $SHAFFY.",
     images: [
       {
-        url: `https://www.shaffynation.com/logo.png`,
+        url: `https://res.cloudinary.com/di4cxzart/image/upload/v1732617300/shaffynation/s2wtjn7f0gzxutha1erl.png`,
         width: 1200,
         height: 630,
         alt: "ShaffyNation OG Image",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "ShaffyNation - Crypto, Humor, Decentralization.",
     description:
       "Explore ShaffyNation, a vibrant community where memes and decentralization are the foundation of a crypto revolution with $SHAFFY.",
-    images: [`https://www.shaffynation.com/logo.png`],
+    images: [`https://res.cloudinary.com/di4cxzart/image/upload/v1732617300/shaffynation/s2wtjn7f0gzxutha1erl.png`],
   },
 };
 
