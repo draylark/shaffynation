@@ -1,6 +1,47 @@
+import { Metadata } from "next"
 import { ScrollReveal } from "@/components/ui/ScrollReveal"
-import { anton_sc, julius_sans_one, bangers, bebasNeue } from "@/utils/fonts"
+import { anton_sc } from "@/utils/fonts"
 
+
+export const metadata: Metadata = {
+    title: "ShaffyNation — About & Disclaimer",
+    description:
+      "Learn about ShaffyNation, a unique community built on humor and decentralization. Read our disclaimer to understand the risks and use of $SHAFFY.",
+    keywords: [
+      "ShaffyNation",
+      "ShaffyCoin",
+      "$SHAFFY",
+      "crypto disclaimer",
+      "decentralization",
+      "cryptocurrency risks",
+      "blockchain experimentation",
+      "disclaimer",
+      "about"
+    ],
+    openGraph: {
+      title: "ShaffyNation — About & Disclaimer",
+      description:
+        "Discover ShaffyNation's mission to unite humor and decentralization. Read our disclaimer for insights into $SHAFFY and its associated risks.",
+      url: "https://www.shaffynation.com/about-disclaimer",
+      type: "article",
+      images: [
+        {
+          url: "https://www.shaffynation.com/disbout-banner.webp",
+          width: 1200,
+          height: 630,
+          alt: "About ShaffyNation Banner",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "ShaffyNation — About & Disclaimer",
+      description:
+        "Learn about ShaffyNation's vibrant ecosystem and the disclaimer for $SHAFFY. Understand the associated risks before participating.",
+      images: ["https://www.shaffynation.com/disbout-banner.webp"],
+    },
+  };
+  
 
 export default function AboutDisclaimer(){
     return (
@@ -11,7 +52,7 @@ export default function AboutDisclaimer(){
                         <h1 className={`${anton_sc.className} text-3xl md:text-5xl`}>ABOUT SHAFFYNATION</h1>
                         <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md mt-5">
                             Welcome to ShaffyNation, a vibrant ecosystem built around creativity, community, and innovation. 
-                            Inspired by the unique spirit of the "rock hyrax," 
+                            Inspired by the unique spirit of the &quot;rock hyrax&quot;, 
                             ShaffyCoin ($SHAFFY) is more than just a memecoin – it’s a movement.
                         </p>
                     </ScrollReveal>
