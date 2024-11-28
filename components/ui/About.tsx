@@ -27,7 +27,7 @@ export default function About () {
                 </ScrollReveal>               
                 <ScrollReveal>
                     <p className={`text-neutral-70 dark:text-neutral-300  font-normal md:text-xl`}>
-                        ShaffyCoin is the official coin of ShaffyNation, designed to unite the power of cryptocurrency with the fun of memes. Inspired by the mischief and cunning of the Rock Hyrax, ShaffyCoin is not just a memecoin, it is a symbol of community, creativity and decentralization.
+                        ShaffyCoin ($SHAFFY) is the official coin of ShaffyNation, designed to unite the power of cryptocurrency with the fun of memes. Inspired by the mischief and cunning of the Rock Hyrax, ShaffyCoin is not just a memecoin, it is a symbol of community, creativity and decentralization.
                         <br/>
                         <br/>
                         Our goal is simple: to build an accessible, fun and vibrant community-backed coin, while taking humor and meme culture to new financial horizons. From day one, ShaffyCoin has been focused on community engagement and impact, with future plans to integrate into NFT ecosystems, gaming and more.</p>
