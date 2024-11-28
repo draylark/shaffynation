@@ -76,17 +76,17 @@ export default function Tokenomics() {
             HOW IT WORKS
           </h3>
           <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md mt-5">
-            <span className="font-bold mr-1">Contributors (20%):</span> Tokens
+            <span className="font-bold mr-1">Contributors (18%):</span> Tokens
             reserved to reward developers, partners, and key contributors
             driving the project forward.
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md mt-5">
-            <span className="font-bold mr-1">Marketing and Media (11%):</span>{" "}
+            <span className="font-bold mr-1">Marketing and Media (10%):</span>{" "}
             Funds allocated for advertising campaigns, strategic partnerships,
             and expanding ShaffyNation.
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md mt-5">
-            <span className="font-bold mr-1">Initial Circulation (69%):</span>{" "}
+            <span className="font-bold mr-1">Initial Circulation (72%):</span>{" "}
             Tokens available to the community from the start, ensuring wide and
             accessible distribution.
           </p>
