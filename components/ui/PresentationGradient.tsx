@@ -4,6 +4,7 @@ import React from "react";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 import shaffys from '@/public/shaffys.png'
 import { useTheme } from "next-themes";
+import { anton_sc } from "@/utils/fonts";
 
 const darkTheme = {
   gradientBackgroundStart: "rgb(0, 0, 64)",
@@ -54,12 +55,27 @@ export function PresentationGradient() {
             </div>            
         </div>
 
-        <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 pointer-events-auto">
+        <button className="relative inline-flex h-16 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 pointer-events-auto">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-            Buy $SHAFFY Now
+          
+          <span className="relative inline-flex flex-col items-center justify-center h-full w-full cursor-pointer rounded-full bg-slate-950 px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl">
+            <span className={`font-bold text-md  px-2`}>
+              $SHAFFY
+            </span>
+            <span className="text-xs text-center pb-1">
+              Release Date Scheduled:<br /> 11/28/2024
+            </span>
           </span>
         </button>
+
+
+        {/* <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 pointer-events-auto">
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          
+          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+            <span className="font-bold border-2 border-red-500">$SHAFFY</span>  <br/>Release Date Scheduled:<br/> 11/28/2024
+          </span>
+        </button> */}
       </div>
     </BackgroundGradientAnimation>
   );

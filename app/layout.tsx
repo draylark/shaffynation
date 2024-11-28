@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: "https://www.shaffynation.com",
     title: "ShaffyNation - Crypto, Humor, Decentralization.",
     description:
-      "Explore ShaffyNation, a vibrant community where memes and decentralization are the foundation of a crypto revolution with $SHAFFY.",
+      "Explore ShaffyNation, a vibrant community where humor and decentralization are the foundation of a crypto revolution with $SHAFFY.",
     images: [
       {
         url: `https://res.cloudinary.com/di4cxzart/image/upload/v1732617300/shaffynation/s2wtjn7f0gzxutha1erl.png`,
