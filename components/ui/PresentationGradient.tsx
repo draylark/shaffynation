@@ -4,7 +4,7 @@ import React from "react";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
 import shaffys from '@/public/shaffys.png'
 import { useTheme } from "next-themes";
-import { anton_sc } from "@/utils/fonts";
+import { ScrollReveal } from "./ScrollReveal";
 
 const darkTheme = {
   gradientBackgroundStart: "rgb(0, 0, 64)",
@@ -36,39 +36,42 @@ export function PresentationGradient() {
     <BackgroundGradientAnimation 
       {...(theme === "dark" || theme === 'system' ? darkTheme : lightTheme)}
     >
-      <div className="flex flex-col gap-5 absolute z-40 inset-0 items-center justify-center text-white font-bold px-4 pointer-events-none text-center">
-        <div className="flex flex-col justify-end relative min-h-[300px] mt-[5rem]">
-            <Image 
-                src={shaffys}
-                width={500}
-                height={500}
-                alt="shaffys"
-                className="absolute bottom-[5.4rem]"
-            />
-            <div className="flex flex-col ">
-                <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/50 text-5xl md:text-7xl lg:text-7xl">
-                ShaffyNation
-                </p>
-                <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-3xl md:text-4xl lg:text-4xl">
-                    Crypto, humor and <br/>decentralization.
-                </p>           
-            </div>            
-        </div>
+      <div className="flex absolute z-40 inset-0 items-center justify-center text-white font-bold px-4 pointer-events-none text-center">
+        <ScrollReveal>
+          <div className="flex flex-col gap-5 items-center">
+            <div className="flex flex-col justify-end relative min-h-[300px] mt-[5rem]">
+                <Image 
+                    src={shaffys}
+                    width={500}
+                    height={500}
+                    alt="shaffys"
+                    className="absolute bottom-[5.4rem]"
+                />
+                <div className="flex flex-col ">
+                    <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/50 text-5xl md:text-7xl lg:text-7xl">
+                    ShaffyNation
+                    </p>
+                    <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 text-3xl md:text-4xl lg:text-4xl">
+                        Crypto, humor and <br/>decentralization.
+                    </p>           
+                </div>            
+            </div>
 
-        <button className="relative inline-flex h-16 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 pointer-events-auto">
-          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-          
-          <span className="relative inline-flex flex-col items-center justify-center h-full w-full cursor-pointer rounded-full bg-slate-950 px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl">
-            <span className={`font-bold text-md  px-2`}>
-              $SHAFFY
-            </span>
-            <span className="text-xs text-center pb-1">
-              Release Date Scheduled:<br /> 11/28/2024
-            </span>
-          </span>
-        </button>
+            <button className=" relative inline-flex h-16 w-[12rem] overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 pointer-events-auto">
+              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />  
+              <span className="relative inline-flex flex-col items-center justify-center h-full w-full cursor-pointer rounded-full bg-slate-950 px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl">
+                <span className={`font-bold text-md  px-2`}>
+                  $SHAFFY
+                </span>
+                <span className="text-xs text-center pb-1">
+                  Release Date Scheduled:<br /> 11/28/2024
+                </span>
+              </span>
+            </button>            
+          </div>
 
-
+        </ScrollReveal>
+        
         {/* <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 pointer-events-auto">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
           
