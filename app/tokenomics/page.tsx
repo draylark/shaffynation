@@ -60,13 +60,13 @@ export default function Tokenomics() {
           </p>
           <div className="flex flex-col mt-5">
             <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md">
-              <span className="font-bold mr-1">Circulation:</span> 69%
+              <span className="font-bold mr-1">Circulation:</span> 72%
             </p>
             <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md">
-              <span className="font-bold mr-1">Contributors:</span> 20%
+              <span className="font-bold mr-1">Contributors:</span> 18%
             </p>
             <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md">
-              <span className="font-bold mr-1">Marketing and Media:</span> 11%
+              <span className="font-bold mr-1">Marketing and Media:</span> 10%
             </p>
           </div>
         </ScrollReveal>
