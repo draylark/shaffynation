@@ -123,10 +123,10 @@ export default function AboutDisclaimer(){
                     <ScrollReveal>
                         <h3 className={`${anton_sc.className} text-xl md:text-2xl`}>LIMITATION OF LIABILITY</h3>
                         <p className="text-neutral-800 dark:text-neutral-200 font-normal text-md mt-5">
-                        ShaffyNation, its creators, and associates are not responsible for:<br/>
-                            —Financial losses related to the purchase or holding of ShaffyCoin.<br/>
-                            —Technical issues on the blockchain that impact the token's operation.<br/>
-                            —Investment decisions made based on the information provided on this site.
+                        ShaffyNation, its creators, and associates are not responsible for:<br/><br/>
+                            1. Financial losses related to the purchase or holding of ShaffyCoin.<br/><br/>
+                            2. Technical issues on the blockchain that impact the token's operation.<br/><br/>
+                            3. Investment decisions made based on the information provided on this site.
                         </p>
                     </ScrollReveal>
                     <ScrollReveal>

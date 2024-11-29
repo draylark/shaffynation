@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/Header";
-// const url = process.env.NEXT_URL;
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "ShaffyNation - Crypto, Humor, Decentralization.",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ShaffyNation - Crypto, Humor, Decentralization.",
     description:
-      "Explore ShaffyNation, a vibrant community where memes and decentralization are the foundation of a crypto revolution with $SHAFFY.",
+      "Explore ShaffyNation, a vibrant community where humor and decentralization are the foundation of a crypto revolution with $SHAFFY.",
     images: [`https://res.cloudinary.com/di4cxzart/image/upload/v1732617300/shaffynation/s2wtjn7f0gzxutha1erl.png`],
   },
 };
@@ -76,6 +76,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <SpeedInsights />
           <Footer />
         </ThemeProvider>
       </body>
