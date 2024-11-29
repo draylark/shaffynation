@@ -64,7 +64,7 @@ export function PresentationGradient() {
                   $SHAFFY
                 </span>
                 <span className="text-xs text-center pb-1">
-                  Release Date Scheduled:<br /> 11/29/2024
+                 COMING SOON
                 </span>
               </span>
             </button>            
