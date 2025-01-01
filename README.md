@@ -107,7 +107,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 Join the ShaffyNation community:
 - [Twitter](https://twitter.com/shaffynation)
 - [Instagram](https://instagram.com/shaffynation)
-- [Discord](https://discord.gg/shaffynation)
+- [Discord](https://discord.gg/Vk326YwK)
 - [Telegram](https://t.me/shaffynation)
 
 For questions or feedback, please open an [issue](https://github.com/yourusername/shaffynation/issues).
