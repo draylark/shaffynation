@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { anton_sc } from "@/utils/fonts";
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "ShaffyNation — About & Disclaimer",
@@ -42,10 +43,6 @@ export const metadata: Metadata = {
 };
 
 export default function AboutDisclaimer() {
-  const handleExit = () => {
-    // Redirect to the homepage or perform another action
-    window.location.href = '/'; // Redirect to homepage
-  };
 
   return (
     <div className="flex flex-wrap min-h-[1000px]">
@@ -152,13 +149,14 @@ export default function AboutDisclaimer() {
 
       {/* Exit Button */}
       <div className="flex justify-center w-full mt-10">
-        <button
-          onClick={handleExit}
+        <Link
+          href="/"
           className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600"
         >
           Exit
-        </button>
+        </Link>
       </div>
+      
     </div>
   );
 }

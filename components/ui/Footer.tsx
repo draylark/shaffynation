@@ -29,7 +29,7 @@ export default function Footer(){
             </div>
 
             <div className={`${anton_sc.className} flex flex-grow justify-center items-center py-10 md:py-0`}>
-                <p className="md:text-lg">© 2024 SHAFFYNATION | ALL RIGHTS RESERVED</p>
+                <p className="md:text-lg">© 2025 SHAFFYNATION | ALL RIGHTS RESERVED</p>
             </div>
         </footer>
     )

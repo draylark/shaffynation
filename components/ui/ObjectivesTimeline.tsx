@@ -54,7 +54,7 @@ export function ObjectivesTimeline() {
             Build an Active Community on Discord
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Reach at least 1000 active members on Discord, fostering a vibrant community with activities such 
+            Reach at least 10,000 active members on Discord, fostering a vibrant community with activities such 
             as meme contests, cryptocurrency discussions, and exclusive events for ShaffyCoin holders.
           </p>
           <div className="grid grid-cols-1 gap-4">

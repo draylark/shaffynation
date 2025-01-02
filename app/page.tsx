@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { PresentationGradient } from "@/components/ui/PresentationGradient";
 import About from "@/components/ui/About";
 import { ObjectivesTimeline } from "@/components/ui/ObjectivesTimeline";
+import { LandingPage } from "@/components/ui/LandingPage";
 
 export const metadata: Metadata = {
   title: "ShaffyNation - Where Humor and Decentralization Meet",
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <PresentationGradient />
+      <LandingPage />
       <About />
       <ObjectivesTimeline />
     </div>

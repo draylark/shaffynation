@@ -1,6 +1,8 @@
+
 import { Metadata } from "next";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { anton_sc } from "@/utils/fonts";
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "ShaffyCoin — Tokenomics",
@@ -40,11 +42,6 @@ export const metadata: Metadata = {
 };
 
 export default function Tokenomics() {
-  const handleExit = () => {
-    // Define what happens when the exit button is clicked
-    // For example, redirect to the homepage or close the modal
-    window.location.href = '/'; // Redirect to homepage
-  };
 
   return (
     <div className="flex flex-col md:items-center gap-10 min-h-[1000px] pt-[10rem] px-[3rem] md:p-[12rem]">
@@ -97,13 +94,14 @@ export default function Tokenomics() {
             accessible distribution.
           </p>
         </ScrollReveal>
-
-        <button
-          onClick={handleExit}
-          className="mt-10 bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600"
+        <div className="flex justify-center w-full mt-10">
+        <Link
+          href="/"
+          className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600"
         >
           Exit
-        </button>
+        </Link>
+      </div>
       </div>
     </div>
   );
