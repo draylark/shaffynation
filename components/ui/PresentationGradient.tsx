@@ -30,6 +30,7 @@ const lightTheme = {
 
 export function PresentationGradient() {
   const { theme } = useTheme();
+  console.log('theme', theme)
   
   return (
     <BackgroundGradientAnimation 

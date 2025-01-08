@@ -189,14 +189,14 @@ const Skeleton = ({ url, position = "center", customPosition }: {
     },    
     {
       title: "Scavenger Hunt Virtual",
-      date: "January 6-7, 2025",
+      date: "January 8-9, 2025",
       description:
         "Embark on a thrilling scavenger hunt across the ShaffyNation Discord server and social media. Solve riddles, find hidden clues, and complete the ultimate challenge to claim your prize!",
       largeDescription: `
   Ready for an adventure?
   The ShaffyNation Scavenger Hunt challenges you to find hidden clues and solve riddles scattered across Discord and social media. It’s a fun, interactive way to explore the ShaffyNation universe and win amazing prizes!
   
-  Date: January 6-7, 2025
+  Date: January 8-9, 2025
   
   How it works:
   
@@ -215,13 +215,13 @@ const Skeleton = ({ url, position = "center", customPosition }: {
     },
     {
       title: "AMA: Ask Shaffy Anything",
-      date: "January 7, 2025",
+      date: "January 8, 2025",
       description: "Join our AMA (Ask Me Anything) session in a dedicated Discord chat! Ask your burning questions and get answers from the team or the iconic 'Shaffy' about the future of ShaffyNation, the Member Pass, NFTs, and more!",
       largeDescription: `
     Ask us anything!
     Join our dedicated AMA (Ask Me Anything) chat session on Discord, where the ShaffyNation team (and Shaffy himself!) will answer all your burning questions. Learn about the future of ShaffyNation, upcoming features like the Member Pass and NFTs, and more.
     
-    Date: January 7, 2025
+    Date: January 8, 2025
     
     How it works:
     
