@@ -28,19 +28,16 @@ export function LandingPage(){
                                 Crypto, humor and <br/>decentralization.
                             </p>                             
                         </div>
-                        <Link href="/events">
+                        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=59qU6WoJmoC849XpGA5iVpC8v3aL8GXjftnKDHbGTT35">
                             <button className=" relative inline-flex h-16 w-[12rem] overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 pointer-events-auto">
                                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />  
                                 <span className="relative inline-flex flex-col items-center justify-center h-full w-full cursor-pointer rounded-full bg-slate-950 px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl">
                                     <span className={`font-bold text-md  px-2`}>
-                                    3-10 JAN, 2025
-                                    </span>
-                                    <span className="text-xs text-center pb-1">
-                                    UPCOMING EVENTS
+                                    BUY $SHAFFY
                                     </span>
                                 </span>
                             </button>    
-                        </Link>        
+                        </a>        
                     </div>  
                     </ScrollReveal>                    
                 </div>
