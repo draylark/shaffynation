@@ -16,28 +16,24 @@ export function NavBar() {
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.instagram.com/shaffynation/",
     }, 
     {
       title: "X",
       icon: (
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://x.com/shaffynation",
     },
     {
       title: "Discord",
       icon: (
         <IconBrandDiscord className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://discord.gg/YZ5aNxCm",
     },
     {
       title: "Telegram",
       icon: (
         <IconBrandTelegram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://t.me/shaffynation",
     },
   ];
   return (

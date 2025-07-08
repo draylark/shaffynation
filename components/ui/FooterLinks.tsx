@@ -24,13 +24,6 @@ export function FooterLinks ({ classes = '' }: { classes?: string }) {
                     Tokenomics
                 </Link>
             </li>
-            <li>
-                <a 
-                    href="mailto:contact@shaffynation.com?subject=About ShaffyNation&body=I%20would%20like%20to%20know%20more%20about%20ShaffyNation." 
-                    className={`${anton_sc.className} hover:underline`}>
-                    Contact
-                </a>
-            </li>    
         </ul>
     )
 }

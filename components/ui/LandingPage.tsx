@@ -18,7 +18,7 @@ export function LandingPage(){
         >
             <div className="flex flex-col  justify-center items-center h-full w-full bg-black/40 px-[8rem]">
                 <div className="max-w-[40rem] p-10 rounded-2xl">
-                    <ScrollReveal>
+            -        <ScrollReveal>
                     <div className="flex flex-col gap-5 justify-center items-center pt-[13rem]">
                         <div className="flex flex-col  justify-center items-center">
                             <p className={`${anton_sc.className} bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/50 text-5xl md:text-7xl lg:text-7xl`}>
