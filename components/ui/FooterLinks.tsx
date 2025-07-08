@@ -24,6 +24,11 @@ export function FooterLinks ({ classes = '' }: { classes?: string }) {
                     Tokenomics
                 </Link>
             </li>
+            <li>
+                <Link href="/events" className={`${anton_sc.className} hover:underline`}>
+                    Events
+                </Link>
+            </li>
         </ul>
     )
 }
